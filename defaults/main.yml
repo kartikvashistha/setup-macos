@@ -1,0 +1,5 @@
+---
+# defaults file for setup-macos
+brew_pkgs:
+
+brew_casks:
