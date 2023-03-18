@@ -1,0 +1,30 @@
+---
+# List of non gui pkgs to be installed via homebrew
+brew_pkgs:
+  - ansible 
+  - asdf
+  - fzf
+  - git
+  - helm
+  - htop
+  - kubectl
+  - minikube
+  - molecule
+  - pyenv
+  - pyenv-virtualenv
+  - virtualenvwrapper
+
+# List of gui apps to be installed via homebrew casks
+brew_casks:
+  - 1password
+  - discord
+  - dropbox
+  - docker
+  - firefox
+  - fleet
+  - google-chrome 
+  - intellij-idea-ce
+  - iterm2
+  - scroll-reverser
+  - spotify
+  - visual-studio-code

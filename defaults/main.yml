@@ -1,0 +1,9 @@
+---
+# defaults file for setup-macos
+brew_pkgs:
+
+brew_casks:
+
+omz: true # Boolean value that determines if the Oh My Zsh should be installed
+
+create_zshrc: true # Boolean value that determines if zshrc is created from the zshrc.j2 template

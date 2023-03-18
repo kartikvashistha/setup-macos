@@ -1,0 +1,7 @@
+# This is an example playbook to run the role
+- hosts: localhost
+  roles:
+    - role: ../setup-macos
+      vars:
+        omz: true
+        create_zshrc: true
