@@ -5,6 +5,7 @@ brew_pkgs:
   - asdf
   - fzf
   - git
+  - helm
   - htop
   - kubectl
   - minikube
@@ -16,6 +17,7 @@ brew_pkgs:
 # List of gui apps to be installed via homebrew casks
 brew_casks:
   - 1password
+  - discord
   - dropbox
   - docker
   - firefox

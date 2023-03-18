@@ -9,3 +9,17 @@
   community.general.homebrew_cask:
     name: "{{ brew_casks }}"
     state: present
+
+- name: Run Oh My Zsh task?
+  include_tasks: omz.yml
+  when: omz
+
+- name: Get full path for home for the current user
+  ansible.builtin.shell: echo $HOME
+  register: home
+
+- name: Create zshrc config from template
+  ansible.builtin.template:
+    src: templates/zshrc.j2
+    dest: '{{ home.stdout }}/.zshrc'
+  when: create_zshrc
