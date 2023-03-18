@@ -1,8 +1,7 @@
 # This is an example playbook to run the role
 - hosts: localhost
-  become: true
   roles:
     - role: ../setup-macos
       vars:
-        nvidia: "true"
-        version: 36
+        omz: false
+        create_zshrc: true
