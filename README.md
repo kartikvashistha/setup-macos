@@ -33,7 +33,7 @@ Example Playbook
 An example `playbook.yml` is given in this role for reference. It can be run as follows:
 
 ```
-ansible-playbook --become-user=yourhomeuser  playbook.yaml
+ansible-playbook --become-user=username  playbook.yaml
 ```
 
 
