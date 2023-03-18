@@ -3,5 +3,5 @@
   roles:
     - role: ../setup-macos
       vars:
-        omz: false
+        omz: true
         create_zshrc: true
